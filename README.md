@@ -1,6 +1,6 @@
 # Enhanced_Malloc
 
-	This program deals with creating your own malloc and free function. We malloc by using an array as
+This program deals with creating your own malloc and free function. We malloc by using an array as
 our “memory” and have a linked list that contains the memEntry structs. Everytime we call the malloc
 function we set space from the array and return a void* pointer back to the user. Our malloc function
 also takes care of merging nodes that are empty to prove a larger amount of memory back to the user.
