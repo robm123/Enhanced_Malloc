@@ -1,0 +1,15 @@
+Mina Gadallah
+Rob Merino
+Test Cases
+	int* ptr = (int*)malloc(2000);			output: ok 	
+	int* ptr1 = (int*)malloc(2000);			output: ok
+	int* ptr2 = (int*)malloc(1000);			output: No Enough Memory
+	int x;
+	free(&x);					output: BAD Pointer!!!
+	Free(ptr+2)					output: BAD Pointer!!!
+	Ptr5 = NULL;					output: Can't Free Null Pointer
+	int* ptr = (int*)malloc(0);			Output: Can't Allocate 0 bytes
+	int* ptr = (int*)malloc(2000);
+	int* ptr = (int*)malloc(2000);
+	free(ptr);					Output: ok
+       free(ptr);					Output:  Memory Not Found
